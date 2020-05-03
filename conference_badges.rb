@@ -19,8 +19,8 @@ def printer(attendees)
   room_assignment = assign_rooms(attendees)
   count = 0
   while count < 7
-    all_badges[count]
-    room_assignment[count]
+    puts all_badges[count]
+    puts room_assignment[count]
     count += 1
   end
 end

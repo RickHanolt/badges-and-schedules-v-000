@@ -15,5 +15,11 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-  batch_badge_creator(assign_rooms(attendees))
+  batch_badge_creator(attendees)
+  assign_rooms(attendees)
+  count = 0
+  while count < 7
+    all_badges[count]
+    room_assignment[count]
+  end
 end

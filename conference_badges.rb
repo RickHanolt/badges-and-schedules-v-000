@@ -21,5 +21,6 @@ def printer(attendees)
   while count < 7
     all_badges[count]
     room_assignment[count]
+    count += 1
   end
 end
